@@ -163,6 +163,7 @@ body {
 
 .interpolation {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -180,4 +181,7 @@ body {
 }
 .my-container .my-video {
   width: 50%;
+}
+.my-container .my-video video {
+  width: 100%;
 }
