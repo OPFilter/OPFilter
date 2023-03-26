@@ -113,10 +113,12 @@ body {
 .results-carousel {
   overflow: hidden;
   width: 70%;
+  margin: auto;
 }
 
 .results-carousel .item {
   margin: 5px;
+  width: 308px;
   overflow: hidden;
   border: 1px solid #bbb;
   border-radius: 10px;
@@ -155,4 +157,15 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+.interpolation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interpolation-image {
+  width: 500px;
+  height: 300px;
 }
