@@ -182,9 +182,9 @@ body {
   /* align-items: ; */
 }
 .my-container .my-video {
+  margin: 20px;
   width: 50%;
 }
 .my-container .my-video video {
-  margin: 10px;
   width: 100%;
 }
