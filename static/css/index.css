@@ -162,6 +162,7 @@ body {
 }
 
 .interpolation {
+  margin: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,6 +175,7 @@ body {
 }
 
 .my-container {
+  margin: auto;
   width: 70%;
   display: flex;
   justify-content: center;
@@ -183,5 +185,6 @@ body {
   width: 50%;
 }
 .my-container .my-video video {
+  margin: 10px;
   width: 100%;
 }
