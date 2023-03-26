@@ -111,7 +111,9 @@ body {
 }
 
 .results-carousel {
-  overflow: hidden;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
 }
 
 .results-carousel .item {
@@ -124,6 +126,8 @@ body {
 }
 
 .results-carousel video {
+  width: 100px;
+  height: 80px;
   margin: 0;
 }
 
