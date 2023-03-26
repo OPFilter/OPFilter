@@ -114,6 +114,7 @@ body {
   overflow: hidden;
   width: 70%;
   margin: auto;
+  padding: 4px;
 }
 
 .results-carousel .item {
@@ -128,6 +129,7 @@ body {
 
 .results-carousel video {
   margin: 0;
+  margin: auto;
 }
 
 
