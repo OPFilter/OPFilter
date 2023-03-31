@@ -112,14 +112,14 @@ body {
 
 .results-carousel {
   overflow: hidden;
-  width: 70%;
+  width: 100%;
   margin: auto;
   padding: 4px;
 }
 
 .results-carousel .item {
   margin: 5px;
-  width: 308px;
+  width: 430px;
   overflow: hidden;
   border: 1px solid #bbb;
   border-radius: 10px;
@@ -170,8 +170,8 @@ body {
 }
 
 .interpolation-image {
-  width: 500px;
-  height: 300px;
+  width: 800px;
+  height: 345px;
 }
 
 .my-container {
