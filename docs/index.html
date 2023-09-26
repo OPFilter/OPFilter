@@ -6,7 +6,7 @@
         content="Object Permanence Filter for robust tracking with interactive robots">
   <meta name="keywords" content="Object Permanence, Particle Filter, HRI">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Object Permanence Filters for Robust Tracking with Interactive Robots</title>
+  <title>Object Permanence Filter for Robust Tracking with Interactive Robots</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -60,10 +60,11 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Object Permanence Filters for Robust Tracking with Interactive Robots</h1>
+          <h1 class="title is-1 publication-title">Object Permanence Filter for Robust Tracking with Interactive Robots</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              Shaoting Peng<sup>1</sup>,</span>
+              <a href="https://shaotingpeng.github.io">Shaoting Peng<sup>1</sup></a>,
+            </span>
             <span class="author-block">
               Margaret X. Wang<sup>2</sup>,</span>
             <span class="author-block">
@@ -102,7 +103,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=x4BRPq-Mgz4&t=1s"
+                <a href="https://www.youtube.com/watch?v=NjIyLm2vyog"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -226,6 +227,53 @@
 </section>
 
 
+<section class="hero is-light is-small">
+  <br><center><h2 class="title is-3">Different Measurements</h2></center>
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100px">
+            <source src="./videos/web_videos/meas1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100px">
+            <source src="./videos/web_videos/meas2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./videos/web_videos/meas3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100px">
+            <source src="./videos/web_videos/meas1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100px">
+            <source src="./videos/web_videos/meas2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./videos/web_videos/meas3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -236,19 +284,17 @@
           <p>
             Object permanence, which refers to the concept that objects continue 
             to exist even when they are no longer perceivable through the senses, 
-            is a crucial aspect of human cognitive development. In this work, we 
-            seek to incorporate this understanding into interactive robots by proposing
-             a set of assumptions and rules to represent object permanence in multi-object,
-              multi-agent interactive scenarios. We integrate these rules into popular 
-              filters resulting in a new class of Object Permanence Filters (OPFs), 
-              including the Object Permanence Unscented Kalman Filter (OP-UKF) and Object
-               Permanence Particle Filter (OP-PF). For multi-object scenarios we 
-               propose an ensemble of \(K\) interconnected OPFs, where each filter
-                predicts plausible object tracks that are resilient to missing, noisy,
-                 and kinematically/dynamically infeasible measurements. Through 
-                 several interactive scenarios, we demonstrate that the proposed 
-                 OPF approach provides robust tracking in human-robot interactive 
-                 tasks, even in the presence of partial or complete occlusion.
+            is a crucial aspect of human cognitive development. In this work, 
+            we seek to incorporate this understanding into interactive robots by 
+            proposing a set of assumptions and rules to represent object permanence 
+            in multi- object, multi-agent interactive scenarios. We integrate these
+             rules into the particle filter, resulting in the Object Perma- nence Filter 
+             (OPF). For multi-object scenarios, we propose an ensemble of K interconnected 
+             OPFs, where each filter predicts plausible object tracks that are resilient 
+             to missing, noisy, and kinematically or dynamically infeasible measurements. 
+             Through several interactive scenarios, we demonstrate that the proposed OPF 
+             approach provides robust tracking in human- robot interactive tasks agnostic 
+             to measurement type, even in the presence of prolonged and complete occlusion.
           </p>
         </div>
       </div>
@@ -260,8 +306,9 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Full Video</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/x4BRPq-Mgz4;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <!-- <iframe src="https://www.youtube.com/watch?v=NjIyLm2vyog;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/NjIyLm2vyog?si=GblYlYUfpfsu_omw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -318,7 +365,7 @@
         <!-- Interpolating. -->
         <!-- <div class="columns is-vcentered interpolation-panel"> -->
         <div class="interpolation">
-          <img src="./images/result.png"
+          <img src="./images/result.jpg"
                 class="interpolation-image"
                 alt="Interpolate start reference image."
                 style="width:1039px;height:369px;"
@@ -329,22 +376,21 @@
           <div class="content has-text-justified">
             <p>
               (top row) General object permanence (OP) tracking experiment, 
-              (bottom row) sugar dropping experiment (inspired by MaskUKF). 
-              X-axis for all plots denote \(k\)-th camera frame. (1st column) simulation 
-              snapshots, (2nd-3rd columns) occluded object \(\xi_x,\xi_y\) coordinates 
-              \(\textcolor{purple}{\text{ground truth (purple)}}, \textcolor{blue}{\text{PF (blue)}}, 
-              \textcolor{orange}{\text{OP-PF (orange)}}. \textcolor{green}{\text{UKF (green)}}, 
-              \textcolor{red}{\text{OP-UKF (red)}}\) (4th column) traces of \(Q\) for the tracked 
+              (bottom row) sugar-dropping experiment (inspired by MaskUKF). 
+              The X-axis for all plots denote \(k\)-th camera frame. (1st column) simulation 
+              snapshots, (2nd-3rd columns) tracking error distances of translation and rotation 
+              of the occluded object given by \(\textcolor{blue}{\text{PF (blue)}}\) and 
+              \(\textcolor{red}{\text{OPF (red)}}\) (4th column) traces of \(Q\) for the tracked 
               object.
             </p>
           </div>
           <div class="interpolation">
-            <img src="./images/metrics.png"
+            <img src="./images/metrics.jpg"
                   class="interpolation-image"
                   alt="Interpolate start reference image."
                   style="width:883px;height:80px;"
             />
-            <p>Numerical results for general OP tracking (experiment 1) and sugar dropping 
+            <p>Numerical results for general OP tracking (experiment 1) and sugar-dropping 
               (experiment 2) over 5 runs</p>
           </div>
         <br/>
@@ -361,20 +407,18 @@
 
           <div class="content has-text-justified">
             <p>
-              In this work, we propose a set of assumptions and rules to 
-              computationally embed object permanence into UKF and PF to form OPFs,
-               which are extended filters robust to heavy occlusion scenarios in 
-               interactive tasks providing plausible tracking. We show that OPFs 
-               are agnostic to the actual tracking algorithms used; e.g., we show 
-               2D/3D tracking with off-the-shelf segmentation masks, apriltags and
-                hand-detectors in simulation and real hard-ware experiments. In the
-                 future we plan to adopt physics-based object/human dynamics. 
-                 An object like an apple fundamentally has different expected 
-                 dynamics than a human. Even by just considering the objects as 
-                 freely moving 3D point masses and the human as a constrained 3D
-                  point mass, we can begin to diversify our modelling abilities. 
-                  Finally, the current framework can easily be extended to 6DoF 
-                  object tracking, however, we leave that to future work.
+              In this work, we propose a set of assumptions and rules to computationally 
+              embed object permanence into the particle filter to form the object permanence 
+              filter (OPF), which is an extended 6-DoF filter robust to heavy and prolonged 
+              occlusion scenarios in interactive tasks providing plausible tracking. We show 
+              that the OPF works well in simulation and hardware experiments, and due to its 
+              agnostic nature can be easily applied to multiple existing 6-DoF trackers achieving
+               real-time performance. In the future, we plan to adopt physics-based object/human 
+               dynamics. Even by just considering the objects as freely moving 3D point masses 
+               and the human as a constrained 3D point mass, we can begin to diversify our
+                modeling abilities. Finally, some parameters like \(\delta\) and \(\epsilon_{\text{occ}}\)
+                 can be dependent on the actual 3D shape of the object to get more generalizable 
+                 thresholds for moving and occlusion.
             </p>
           </div>
         <br/>
